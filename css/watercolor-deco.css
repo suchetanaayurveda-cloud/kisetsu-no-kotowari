@@ -1,0 +1,91 @@
+/* ============================================================
+   和風水彩装飾 ― 季節のことわり LP 用オーバーレイ
+   style.css の後に読み込んでください。
+   既存のレイアウトには触れず、装飾レイヤーのみ追加します。
+
+   --wc-mult … 装飾の濃さ（Tweaksパネルから 0〜1.8 で調整）
+               未設定時は 1（=元の濃さ）
+   body.wc-hidden … 装飾をすべて非表示
+   ============================================================ */
+
+:root{ --wc-mult: 1; }
+
+/* 共通：装飾は最背面・操作を妨げない */
+.wc{position:absolute;pointer-events:none;z-index:0;height:auto;}
+
+/* Tweaks: 装飾の一括非表示 */
+body.wc-hidden .hero-watercolor,
+body.wc-hidden .learn-card-deco,
+body.wc-hidden .schedule-deco,
+body.wc-hidden .examples-scatter,
+body.wc-hidden .sympathy-deco,
+body.wc-hidden .bonus-deco{ display:none !important; }
+
+/* ---------- HERO ---------- */
+/* 見出しを左右から挟むように配置（中央は空く構図）。
+   ヒーローは縦に長いので、上部の見出し帯に合わせて配置する。 */
+.hero-watercolor{
+  position:absolute; left:50%; top:96px;
+  transform:translateX(-50%);
+  width:min(1200px,96%); height:auto;
+  opacity:calc(.5 * var(--wc-mult)); pointer-events:none; z-index:0;
+}
+@media (max-width:768px){
+  .hero-watercolor{ width:150%; opacity:calc(.32 * var(--wc-mult)); top:80px; }
+}
+
+/* ---------- LEARN（3つの講座カード） ---------- */
+.learn-card{ position:relative; overflow:hidden; }
+.learn-card-deco{
+  position:absolute; right:-6%; bottom:-8%;
+  width:46%; opacity:calc(.5 * var(--wc-mult)); z-index:0; pointer-events:none;
+}
+.learn-card > *:not(.learn-card-deco){ position:relative; z-index:1; }
+
+/* ---------- SCHEDULE（3行＝3つの季節） ---------- */
+.schedule-item{ overflow:hidden; }
+.schedule-deco{
+  position:absolute; right:0; top:50%;
+  transform:translateY(-50%);
+  width:42%; max-width:480px; opacity:calc(.14 * var(--wc-mult)); z-index:0; pointer-events:none;
+}
+@media (max-width:768px){
+  .schedule-deco{ width:80%; opacity:calc(.1 * var(--wc-mult)); right:-6%; }
+}
+.schedule-item > *:not(.schedule-deco){ position:relative; z-index:1; }
+
+/* ---------- EXAMPLES（薬味の話：余白に散らす） ---------- */
+.section-examples{ position:relative; overflow:hidden; }
+.examples-scatter{
+  position:absolute; opacity:calc(.12 * var(--wc-mult)); z-index:0; pointer-events:none;
+}
+.examples-scatter--1{ left:-1.5%;  top:9%;   width:140px; transform:rotate(-8deg); }
+.examples-scatter--2{ right:-1%;   top:20%;  width:120px; transform:rotate(10deg); }
+.examples-scatter--3{ left:2%;     bottom:8%; width:110px; transform:rotate(6deg); }
+.examples-scatter--4{ right:1%;    bottom:14%; width:96px; transform:rotate(-12deg); }
+.section-examples .container--wide{ position:relative; z-index:1; }
+@media (max-width:768px){ .examples-scatter{ display:none; } }
+
+/* ---------- BONUS（特典講座：食材のさし絵） ---------- */
+/* カード上部に、切れずに全体が見える「さし絵」として通常フローで配置。
+   背景透かしではなく、はっきり見えるアイコン的イラストにする。 */
+.bonus-item{ position:relative; }
+.bonus-deco{
+  display:block;
+  width:88px; height:auto;        /* 縦横比そのまま・歪みなし */
+  margin:0 0 18px;                /* カード左上の見出しとして */
+  opacity:calc(1 * var(--wc-mult)); /* しっかり見せる（Tweaksで増減可） */
+  pointer-events:none;
+}
+@media (max-width:600px){
+  .bonus-deco{ width:76px; margin-bottom:14px; }
+}
+
+/* ---------- SYMPATHY / FUTURE（章の合間にひと枝） ---------- */
+.section-sympathy{ position:relative; overflow:hidden; }
+.sympathy-deco{
+  position:absolute; right:-2%; top:6%;
+  width:150px; opacity:calc(.1 * var(--wc-mult)); z-index:0; pointer-events:none; transform:rotate(8deg);
+}
+.section-sympathy .container{ position:relative; z-index:1; }
+@media (max-width:768px){ .sympathy-deco{ display:none; } }

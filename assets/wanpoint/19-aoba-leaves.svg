@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480.0" height="420.0" viewBox="0 0 115.2 100.8" opacity="1" preserveAspectRatio="xMidYMid meet">
+      <defs>
+      
+    <filter id="e1" x="-35%" y="-35%" width="170%" height="170%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.022 0.022" numOctaves="4" seed="11" result="n"></feTurbulence>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="7" xChannelSelector="R" yChannelSelector="G" result="d"></feDisplacementMap>
+      <feGaussianBlur in="d" stdDeviation="0.5"></feGaussianBlur>
+    </filter>
+      
+    <filter id="e2" x="-35%" y="-35%" width="170%" height="170%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.020 0.020" numOctaves="4" seed="27" result="n"></feTurbulence>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="8" xChannelSelector="R" yChannelSelector="G" result="d"></feDisplacementMap>
+      <feGaussianBlur in="d" stdDeviation="0.6"></feGaussianBlur>
+    </filter>
+      
+    <filter id="e3" x="-35%" y="-35%" width="170%" height="170%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.026 0.026" numOctaves="4" seed="41" result="n"></feTurbulence>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="9" xChannelSelector="R" yChannelSelector="G" result="d"></feDisplacementMap>
+      <feGaussianBlur in="d" stdDeviation="0.6"></feGaussianBlur>
+    </filter>
+      
+    <filter id="e4" x="-35%" y="-35%" width="170%" height="170%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.030 0.030" numOctaves="4" seed="7" result="n"></feTurbulence>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="6" xChannelSelector="R" yChannelSelector="G" result="d"></feDisplacementMap>
+      <feGaussianBlur in="d" stdDeviation="0.5"></feGaussianBlur>
+    </filter>
+      
+    <filter id="es" x="-35%" y="-35%" width="170%" height="170%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.018 0.018" numOctaves="4" seed="19" result="n"></feTurbulence>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="5" xChannelSelector="R" yChannelSelector="G" result="d"></feDisplacementMap>
+      <feGaussianBlur in="d" stdDeviation="1.3"></feGaussianBlur>
+    </filter>
+      
+    <filter id="ej" x="-35%" y="-35%" width="170%" height="170%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.040 0.040" numOctaves="4" seed="33" result="n"></feTurbulence>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="12" xChannelSelector="R" yChannelSelector="G" result="d"></feDisplacementMap>
+      <feGaussianBlur in="d" stdDeviation="0.7"></feGaussianBlur>
+    </filter>
+      
+    <filter id="g1" x="-35%" y="-35%" width="170%" height="170%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9 0.9" numOctaves="2" seed="5" result="g"></feTurbulence>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -1.1 0.55" result="ga"></feColorMatrix>
+      <feComposite in="ga" in2="SourceAlpha" operator="in" result="gm"></feComposite>
+      <feGaussianBlur in="gm" stdDeviation="0.4"></feGaussianBlur>
+    </filter>
+      
+    <filter id="g2" x="-35%" y="-35%" width="170%" height="170%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9 0.9" numOctaves="2" seed="14" result="g"></feTurbulence>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -1.1 0.55" result="ga"></feColorMatrix>
+      <feComposite in="ga" in2="SourceAlpha" operator="in" result="gm"></feComposite>
+      <feGaussianBlur in="gm" stdDeviation="0.4"></feGaussianBlur>
+    </filter>
+      <filter id="paper" x="0" y="0" width="100%" height="100%">
+        <feTurbulence type="fractalNoise" baseFrequency="0.012 0.014" numOctaves="5" seed="8" result="p"></feTurbulence>
+        <feColorMatrix in="p" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.06 0"></feColorMatrix>
+      </filter>
+    </defs>
+      <g transform="translate(9.600000000000001 8.4)">
+      <path d="M20 74 C36 60 56 44 76 18" stroke="#62755b" stroke-width="1.6" fill="none" opacity="0.34" filter="url(#es)"></path>
+      <g transform="translate(38 46) rotate(-44) scale(1)">
+      <path d="M0 -24 C-12 -14 -13 10 0 26 C13 10 12 -14 0 -24 Z" fill="#7c9462" opacity="0.42" filter="url(#e3)"></path>
+      <path d="M0 -20 C-7 -10 -8 8 0 20 C8 8 7 -10 0 -20 Z" fill="#9fae6f" opacity="0.3" filter="url(#es)"></path>
+      <ellipse cx="0" cy="0" rx="1" ry="18" fill="#a3b7a6" opacity="0.4" filter="url(#es)"></ellipse>
+    </g>
+      <g transform="translate(62 30) rotate(-20) scale(0.9)">
+      <path d="M0 -24 C-12 -14 -13 10 0 26 C13 10 12 -14 0 -24 Z" fill="#7c9462" opacity="0.42" filter="url(#e3)"></path>
+      <path d="M0 -20 C-7 -10 -8 8 0 20 C8 8 7 -10 0 -20 Z" fill="#9fae6f" opacity="0.3" filter="url(#es)"></path>
+      <ellipse cx="0" cy="0" rx="1" ry="18" fill="#a3b7a6" opacity="0.4" filter="url(#es)"></ellipse>
+    </g>
+      <g transform="translate(30 60) rotate(-70) scale(0.7)">
+      <path d="M0 -24 C-12 -14 -13 10 0 26 C13 10 12 -14 0 -24 Z" fill="#7c9462" opacity="0.42" filter="url(#e3)"></path>
+      <path d="M0 -20 C-7 -10 -8 8 0 20 C8 8 7 -10 0 -20 Z" fill="#9fae6f" opacity="0.3" filter="url(#es)"></path>
+      <ellipse cx="0" cy="0" rx="1" ry="18" fill="#a3b7a6" opacity="0.4" filter="url(#es)"></ellipse>
+    </g>
+    </g>
+    </svg>
