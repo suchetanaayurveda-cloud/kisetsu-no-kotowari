@@ -19,6 +19,7 @@ body.wc-hidden .learn-card-deco,
 body.wc-hidden .schedule-deco,
 body.wc-hidden .examples-scatter,
 body.wc-hidden .sympathy-deco,
+body.wc-hidden .why-deco,
 body.wc-hidden .bonus-deco{ display:none !important; }
 
 /* ---------- HERO ---------- */
@@ -35,10 +36,10 @@ body.wc-hidden .bonus-deco{ display:none !important; }
 }
 
 /* ---------- LEARN（3つの講座カード） ---------- */
-.learn-card{ position:relative; overflow:hidden; }
+.learn-card{ position:relative; overflow:visible; }
 .learn-card-deco{
-  position:absolute; right:-6%; bottom:-8%;
-  width:46%; opacity:calc(.5 * var(--wc-mult)); z-index:0; pointer-events:none;
+  position:absolute; right:2%; bottom:4%;
+  width:42%; opacity:calc(.5 * var(--wc-mult)); z-index:0; pointer-events:none;
 }
 .learn-card > *:not(.learn-card-deco){ position:relative; z-index:1; }
 
@@ -80,6 +81,15 @@ body.wc-hidden .bonus-deco{ display:none !important; }
 @media (max-width:600px){
   .bonus-deco{ width:76px; margin-bottom:14px; }
 }
+
+/* ---------- WHY（④ 食卓の知恵：余白に薄く散らす） ---------- */
+.section-why{ position:relative; overflow:hidden; }
+.why-deco{ position:absolute; pointer-events:none; z-index:0; }
+.why-deco--1{ left:-2%; top:12%;  width:130px; opacity:calc(.09 * var(--wc-mult)); transform:rotate(-6deg); }
+.why-deco--2{ right:-1%; top:38%; width:110px; opacity:calc(.08 * var(--wc-mult)); transform:rotate(10deg); }
+.why-deco--3{ right:2%;  bottom:10%; width:140px; opacity:calc(.1  * var(--wc-mult)); transform:rotate(-8deg); }
+.section-why .container{ position:relative; z-index:1; }
+@media (max-width:768px){ .why-deco{ display:none; } }
 
 /* ---------- SYMPATHY / FUTURE（章の合間にひと枝） ---------- */
 .section-sympathy{ position:relative; overflow:hidden; }
