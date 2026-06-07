@@ -371,16 +371,27 @@
 
 
 /* ========================================
-   12. CTA BUTTON — MOCK CLICK HANDLER
-      （申込みURLが確定したら変更してください）
+   12. CTA BUTTON — PAYMENT URL CONFIGURATION
+      ─────────────────────────────────────────
+      申込みURLの設定はここ1か所だけ変更すれば OK。
+      このJSが index.html の href="#" を上書きします。
+
+      対象ボタン（index.html）：
+        #btn-package-apply  → 全講座パッケージ（¥114,000）
+        #btn-single-apply   → 1回参加（¥38,000）
+
+      ※ sticky-cta と header-cta は #section-cta へのスクロール
+         リンクなので変更不要。
+
+      ★ 申込みURLが確定したら PACKAGE_URL / SINGLE_URL を書き換える ★
    ======================================== */
 (function initCTAButtons() {
   const pkgBtn = document.getElementById('btn-package-apply');
   const singleBtn = document.getElementById('btn-single-apply');
 
-  // ★ 申込みURLが確定したらこちらを変更してください ★
-  const PACKAGE_URL = '#'; // e.g. 'https://your-form-url.com/package'
-  const SINGLE_URL  = '#'; // e.g. 'https://your-form-url.com/single'
+  // TODO: 実URLに差し替える（この2行だけ変更すれば全CTA反映される）
+  const PACKAGE_URL = '#'; // ← 例: 'https://ssl.form-mailer.jp/fms/xxxxx'
+  const SINGLE_URL  = '#'; // ← 例: 'https://ssl.form-mailer.jp/fms/yyyyy'
 
   if (pkgBtn) {
     pkgBtn.setAttribute('href', PACKAGE_URL);
