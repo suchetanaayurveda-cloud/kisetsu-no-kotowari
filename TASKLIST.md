@@ -98,3 +98,47 @@ The visual hierarchy is elegant and restrained, but commercial decision informat
 ### Japanese Language Naturalness
 
 Overall Japanese is natural, calm, and polished. Awkward or weaker areas include `開催時間：予定`, vague testimonial heading language, `すべて無料でお届けします`, and overly generic payment FAQ language. Some CTA language is elegant but not explicit enough for application intent.
+
+## 2026-06-07 YUKARI. Review Follow-up
+
+### Changed in this pass
+
+- Revised Section 3 age framing to mention changes women may notice after around age 35, without medical promise language.
+- Simplified Section 4 keyword treatment and reduced forced line breaks to avoid awkward mobile particles such as isolated `は、`.
+- Updated course content copy:
+  - Session 01 now uses `そうめんでも夏バテは解消されない理由`.
+  - Session 02 includes more familiar autumn foods such as 新米, 柿, かぼちゃ, 芋類.
+  - Session 03 is more concrete around 味噌, 醤油, 漬物, 米, 塩, 甘味料, 冬の冷え.
+- Shortened Examples answers into teaser-style copy so the LP creates curiosity instead of fully answering each topic.
+- Updated schedule wording from `開催時間：予定` to a polished pending-time message.
+- Updated archive wording to avoid promising a final period before it is decided.
+- Removed the public upgrade FAQ and removed the strong public upgrade note from pricing.
+- Replaced payment FAQ with STORES-based enrollment wording.
+- Added a small final CTA note that applications move to YUKARI.（viorto!）STORES.
+- Strengthened final CTA message around Japanese seasons, 二十四節気, and Japanese food culture.
+- Improved readability of muted labels, numbers, instructor romanized names, schedule details, pricing notes, bonus prices, testimonial note, and footer copy.
+- Refined bonus course names and made bonus value easier to scan without making the offer feel cheap.
+- Updated testimonial source note to state that comments are edited in a non-identifying form based on past courses / Instagram live feedback.
+
+### Still unresolved before launch
+
+- Session times.
+- Archive viewing period and delivery method.
+- STORES product URLs for full program and single-session enrollment.
+- Final approval status of testimonials.
+- OGP image.
+- Inquiry email.
+- Final organizer wording.
+- Cancellation / refund policy link or STORES product-page wording.
+
+### Internal TODO: pre-launch free webinar idea
+
+- Consider a free webinar shortly before July 7.
+- Candidate topics:
+  - `なぜ胡瓜には薬味を添えるのか？`
+  - `夏バテとそうめんの意外な関係`
+- Purpose:
+  - collect email addresses
+  - warm up interested participants
+  - convert webinar participants into the paid course
+- Do not build this into the LP until explicitly requested.

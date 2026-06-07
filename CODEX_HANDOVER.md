@@ -1056,4 +1056,49 @@ If you are onboarding right now:
 
 ---
 
+---
+
+## SECTION 15 — 2026-06-07 YUKARI. REVIEW UPDATE
+
+### Flow clarification
+
+This LP does **not** process payment directly. Final enrollment is expected to happen on YUKARI. / viorto! STORES product pages.
+
+Current CTA architecture remains:
+- Header, hero, pricing, and sticky CTAs scroll to `#section-cta`
+- Final package and single-session buttons are the outbound CTA placeholders
+- `PACKAGE_URL` and `SINGLE_URL` in `js/main.js` should later be set to STORES product URLs
+
+### Copy and readiness changes made after review
+
+- Section 3: age framing revised around `35歳を過ぎた頃から...` while avoiding medical promise language.
+- Section 4: keyword layout reduced from large isolated words to a smaller inline phrase; forced line breaks reduced for mobile readability.
+- Section 6: course content revised to be more concrete and curiosity-led, including `そうめんでも夏バテは解消されない理由`.
+- Examples: answers shortened into teaser copy.
+- Schedule: `開催時間：予定` replaced with `開催時間：調整中（決定次第ご案内します）`.
+- Archive wording: changed to say viewing-period details will be announced before application.
+- FAQ: public upgrade FAQ removed; payment FAQ replaced with STORES enrollment wording.
+- Final CTA: added STORES transition note and strengthened Japanese seasonal / 二十四節気 positioning.
+- Bonus: course titles refined and value display made more readable.
+- Readability: muted labels, card numbers, dates, instructor romanized names, bonus prices, pricing notes, and footer copy made more legible.
+
+### Still unresolved before launch
+
+1. Session times
+2. Archive viewing period and delivery method
+3. STORES product URLs
+4. Testimonials approval
+5. OGP image
+6. Inquiry email
+7. Final organizer wording
+8. Cancellation / refund policy link or STORES product-page wording
+
+### Internal TODO
+
+Consider a free pre-launch webinar shortly before July 7. Candidate topics:
+- `なぜ胡瓜には薬味を添えるのか？`
+- `夏バテとそうめんの意外な関係`
+
+Purpose: collect email addresses and convert interested participants into the paid course. Do not build this into the LP until explicitly requested.
+
 *End of handover document. Last updated: 2026-06-07.*
