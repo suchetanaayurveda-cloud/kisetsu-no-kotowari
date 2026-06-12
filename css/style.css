@@ -135,6 +135,9 @@ a   { color: inherit; text-decoration: none; }
   line-height: 2.2;
   color: #5c4f3f;
   margin-bottom: 36px;
+  word-break: normal;
+  overflow-wrap: break-word;
+  text-wrap: pretty;
 }
 
 .gold-line {
@@ -1051,6 +1054,9 @@ a   { color: inherit; text-decoration: none; }
   display: flex; align-items: center; justify-content: center;
   position: relative; overflow: hidden;
 }
+.instructor-photo-frame img {
+  object-position: center top;
+}
 .instructor-photo-frame::before {
   content: '';
   position: absolute; top: 0; left: 0;
@@ -1246,7 +1252,7 @@ a   { color: inherit; text-decoration: none; }
 .schedule-detail {
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: 400; font-size: 1rem;
-  color: #625447;
+  color: #4a3728;
   line-height: 2.1;
 }
 .schedule-badge { display: flex; flex-direction: column; gap: 6px; align-items: flex-end; }
@@ -1459,7 +1465,7 @@ a   { color: inherit; text-decoration: none; }
   text-align: center;
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: 400; font-size: 1rem;
-  color: #625447;
+  color: #4a3728;
   margin-top: 28px; line-height: 2.3;
   position: relative;
 }
@@ -1769,7 +1775,7 @@ a   { color: inherit; text-decoration: none; }
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: 400;
   font-size: 0.9rem;
-  color: #625447;
+  color: #4a3728;
   line-height: 2;
   margin-top: 18px;
 }
@@ -2242,9 +2248,9 @@ a   { color: inherit; text-decoration: none; }
 }
 .voice-card-text {
   font-family: 'Noto Serif JP', Georgia, serif;
-  font-size: 0.9rem;
-  color: #4a3728;
-  line-height: 2.1;
+  font-size: 0.95rem;
+  color: #3d3328;
+  line-height: 2.2;
   margin-bottom: 20px;
   padding-top: 20px;
 }
@@ -2261,7 +2267,7 @@ a   { color: inherit; text-decoration: none; }
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: 400;
   font-size: 0.82rem;
-  color: #625447;
+  color: #4a3728;
   letter-spacing: 0.08em;
 }
 
@@ -2306,9 +2312,9 @@ a   { color: inherit; text-decoration: none; }
 .fitcheck-list li {
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: 400;
-  font-size: 0.84rem;
+  font-size: 0.88rem;
   color: #5c4f3f;
-  line-height: 1.85;
+  line-height: 2;
   padding: 9px 0 9px 22px;
   border-bottom: 1px solid #f5f0e8;
   position: relative;
