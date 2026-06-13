@@ -73,7 +73,7 @@ The 二十四節気 (24 Solar Terms) — a traditional East Asian calendar that 
 
 ---
 
-### 今枝ゆかり (Imaeda Yukari)
+### YUKARI. (Imaeda Yukari)
 **Role:** Co-Instructor
 **Credentials:** Cooking teacher, "オイル料理家" (oil cooking specialist), viorto! founder
 **Based:** Okayama, Japan

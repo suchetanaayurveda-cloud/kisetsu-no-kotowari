@@ -97,7 +97,7 @@ The visual hierarchy is elegant and restrained, but commercial decision informat
 
 ### Japanese Language Naturalness
 
-Overall Japanese is natural, calm, and polished. Awkward or weaker areas include `開催時間：予定`, vague testimonial heading language, `すべて無料でお届けします`, and overly generic payment FAQ language. Some CTA language is elegant but not explicit enough for application intent.
+Overall Japanese is natural, calm, and polished. Weaker areas include vague testimonial heading language, `すべて無料でお届けします`, and overly generic payment FAQ language. Some CTA language is elegant but not explicit enough for application intent.
 
 ## 2026-06-07 YUKARI. Review Follow-up
 
@@ -110,7 +110,7 @@ Overall Japanese is natural, calm, and polished. Awkward or weaker areas include
   - Session 02 includes more familiar autumn foods such as 新米, 柿, かぼちゃ, 芋類.
   - Session 03 is more concrete around 味噌, 醤油, 漬物, 米, 塩, 甘味料, 冬の冷え.
 - Shortened Examples answers into teaser-style copy so the LP creates curiosity instead of fully answering each topic.
-- Updated schedule wording from `開催時間：予定` to a polished pending-time message.
+- Updated schedule wording to the confirmed `19:00〜21:00` time.
 - Updated archive wording to avoid promising a final period before it is decided.
 - Removed the public upgrade FAQ and removed the strong public upgrade note from pricing.
 - Replaced payment FAQ with STORES-based enrollment wording.

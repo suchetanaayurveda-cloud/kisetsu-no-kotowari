@@ -485,7 +485,7 @@ This document records the current implementation only. It does not include criti
   - Photo label: `暮らしの案内人`
   - Tag: `料理家｜viorto! 主宰`
   - English name: `YUKARI.`
-  - Japanese name: `今枝 ゆかり`
+  - Japanese name: `YUKARI.`
   - Credentials:
     - `東京都出身`
     - `香港キャセイパシフィック航空 客室乗務員として6年間香港在住`
@@ -502,7 +502,7 @@ This document records the current implementation only. It does not include criti
     - `📷 @viorto`
     - `🌿 viorto.com`
   - Image: `https://viorto.com/wp-content/uploads/2024/05/about_prof3.jpg`
-  - Image alt: `今枝ゆかり（viorto! 主宰）プロフィール写真`
+  - Image alt: `YUKARI.（viorto! 主宰）プロフィール写真`
 
 ## Section 9 - Instructor Roles
 
@@ -709,7 +709,7 @@ This document records the current implementation only. It does not include criti
     - Number block: `Session` / `01`
     - Date: `2026年 7月7日（火）`
     - Title: `梅雨から夏へ　湿気と暑さを味方にする食養生`
-    - Detail: `開催時間：調整中（決定次第ご案内します）　オンライン開催｜アーカイブあり`
+    - Detail: `開催時間：19:00〜21:00　オンライン開催｜アーカイブあり`
     - Badges:
       - `オンライン`
       - `アーカイブあり`
@@ -718,7 +718,7 @@ This document records the current implementation only. It does not include criti
     - Number block: `Session` / `02`
     - Date: `2026年 8月25日（火）`
     - Title: `夏から秋へ　夏の疲れを秋に残さない食養生`
-    - Detail: `開催時間：調整中（決定次第ご案内します）　オンライン開催｜アーカイブあり`
+    - Detail: `開催時間：19:00〜21:00　オンライン開催｜アーカイブあり`
     - Badges:
       - `オンライン`
       - `アーカイブあり`
@@ -727,7 +727,7 @@ This document records the current implementation only. It does not include criti
     - Number block: `Session` / `03`
     - Date: `2026年 10月20日（火）`
     - Title: `秋から冬へ　温める力と保存の知恵`
-    - Detail: `開催時間：調整中（決定次第ご案内します）　オンライン開催｜アーカイブあり`
+    - Detail: `開催時間：19:00〜21:00　オンライン開催｜アーカイブあり`
     - Badges:
       - `オンライン`
       - `アーカイブあり`
@@ -736,7 +736,7 @@ This document records the current implementation only. It does not include criti
   - `◆ 各回約2時間を予定しています。`
   - `◆ アーカイブ動画をご用意します。視聴期間の詳細は、お申込み前にご案内します。`
   - `◆ 3回を通じて学ぶことで、季節の流れがより深く理解できます。`
-  - `◆ 開催時間の詳細は、決定次第このページでご案内します。`
+  - `◆ 開催時間の詳細は、各回 19:00〜21:00 です。`
 
 ## Section 14 - Pricing
 
@@ -1302,7 +1302,7 @@ Notes:
 
 | File / URL | Location | Intrinsic dimensions | Display size / CSS | Section | Alt text |
 |---|---|---:|---|---|---|
-| `https://viorto.com/wp-content/uploads/2024/05/about_prof3.jpg` | external URL | not measured locally | inside `.instructor-photo-frame` aspect ratio 3/4; image width/height 100%, object-fit cover; `loading="lazy"` | Instructor profile | `今枝ゆかり（viorto! 主宰）プロフィール写真` |
+| `https://viorto.com/wp-content/uploads/2024/05/about_prof3.jpg` | external URL | not measured locally | inside `.instructor-photo-frame` aspect ratio 3/4; image width/height 100%, object-fit cover; `loading="lazy"` | Instructor profile | `YUKARI.（viorto! 主宰）プロフィール写真` |
 
 ## Arrangement SVGs
 
@@ -1610,7 +1610,7 @@ Additional JS reduced-motion handling:
 
 - `村越 シッダールタ 悟`
 - `Siddhartha Satoru Murakoshi`
-- `今枝 ゆかり`
+- `YUKARI.`
 - `YUKARI.`
 
 ---

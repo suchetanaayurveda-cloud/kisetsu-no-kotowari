@@ -287,8 +287,8 @@ Wanpoint SVGs:
 ## Known Issues
 
 - Final package and single-session CTA URLs are placeholders (`#`) in `js/main.js`.
-- Session times are still shown as `開催時間：予定`.
-- Schedule note says time details are provided after application, which is weak for a premium purchase.
+- Session times are confirmed as `開催時間：19:00〜21:00`.
+- Schedule note now states the confirmed time on the page.
 - OGP image is missing.
 - Testimonials appear to be placeholder or lightly sourced; current source note is not strong enough for launch trust.
 - YUKARI. profile image is loaded externally.

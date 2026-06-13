@@ -280,7 +280,7 @@ The LP uses a single `index.html` file. Sections flow top to bottom. All section
 - **Background:** `#faf7f2`
 - **Content:** Two instructor blocks (grid: photo column + info column)
   - **村越シッダールタ悟:** BAMS physician, photo from `images/siddharth.jpg`
-  - **今枝ゆかり (YUKARI.):** Cooking teacher, photo from external URL (viorto.com)
+  - **YUKARI.:** Cooking teacher, photo from external URL (viorto.com)
 - **Note:** Co-instructor's photo loads from an external URL — potential fragility
 
 ### ⑨ Instructor Roles (inline section, no section tag)
@@ -317,7 +317,7 @@ The LP uses a single `index.html` file. Sections flow top to bottom. All section
   - Row 1: season-1-tsuyu-natsu.svg (14% opacity)
   - Row 2: season-2-natsu-aki.svg
   - Row 3: season-3-aki-fuyu.svg
-- **Session times:** Currently "開催時間：予定" (time TBD) — needs actual times
+- **Session times:** Confirmed session time: "開催時間：19:00〜21:00"
 
 ### ⑭ Pricing
 - **ID:** `#section-pricing`
@@ -779,10 +779,10 @@ The LP is responsive across three breakpoints: 960px, 768px, and 600px.
 
 ### P1 — High (fix before launch)
 
-**Issue 4: Session times not set**
-- Description: All 3 schedule items show "開催時間：予定" (time TBD)
+**Issue 4: Session times confirmed**
+- Description: All 3 schedule items show "開催時間：19:00〜21:00"
 - Affected: `index.html` schedule section (3 instances of `schedule-detail` class)
-- Severity: High — visitors need to know if times work for them
+- Status: Resolved — visitors can now confirm whether the time works for them
 
 **Issue 5: Testimonials are placeholder**
 - Description: 4 voice cards contain fabricated quotes
@@ -1021,7 +1021,7 @@ Everything is built. The LP looks and works correctly:
 1. **CTA buttons don't go anywhere** — `href="#"` — this blocks all revenue. Fix first.
 2. **No OGP image** — LP cannot be shared with thumbnail on LINE/social
 3. **Testimonials are fake** — must be replaced before public launch
-4. **Session times not set** — "予定" placeholders in schedule
+4. **Session times confirmed** — schedule now shows "19:00〜21:00"
 5. **No GitHub remote** — code not backed up
 6. **No analytics** — cannot measure performance
 
@@ -1075,7 +1075,7 @@ Current CTA architecture remains:
 - Section 4: keyword layout reduced from large isolated words to a smaller inline phrase; forced line breaks reduced for mobile readability.
 - Section 6: course content revised to be more concrete and curiosity-led, including `そうめんでも夏バテは解消されない理由`.
 - Examples: answers shortened into teaser copy.
-- Schedule: `開催時間：予定` replaced with `開催時間：調整中（決定次第ご案内します）`.
+- Schedule: session time confirmed as `開催時間：19:00〜21:00`.
 - Archive wording: changed to say viewing-period details will be announced before application.
 - FAQ: public upgrade FAQ removed; payment FAQ replaced with STORES enrollment wording.
 - Final CTA: added STORES transition note and strengthened Japanese seasonal / 二十四節気 positioning.
