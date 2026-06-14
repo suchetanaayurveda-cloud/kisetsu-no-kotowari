@@ -200,7 +200,7 @@ The LP uses a single `index.html` file. Sections flow top to bottom. All section
 ### Header
 - **ID:** `#site-header`
 - **Classes:** `.site-header` (adds `.scrolled` via JS when scrollY > 60)
-- **Content:** Logo text (季節のことわり) + CTA button linking to `#section-cta`
+- **Content:** Logo text (`日本の四季と食から学ぶアーユルヴェーダ`) + CTA button linking to `#section-pricing`
 - **Position:** Fixed, z-index 1000
 - **Background:** `rgba(251,248,243,0.92)` with `backdrop-filter: blur(12px)`
 - **JS dependency:** `initHeader()` in main.js — adds/removes `.scrolled` class on scroll

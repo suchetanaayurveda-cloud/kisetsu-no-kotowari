@@ -40,7 +40,7 @@ This document records the current implementation only. It does not include criti
   - `header-logo`
   - `header-cta`
 - Visible text:
-  - Logo: `季節のことわり`
+  - Logo: `日本の四季と食から学ぶアーユルヴェーダ`
   - Header CTA: `講座の詳細を見る`
 - CTA destination:
   - HTML href: `#section-cta`
@@ -1625,7 +1625,7 @@ Additional JS reduced-motion handling:
 
 | Section # | Section Name | HTML ID | Main Heading | Primary CTA | Dominant Color | Heading Font Size | Body Font Size |
 |---:|---|---|---|---|---|---|---|
-| 0 | Header | `site-header` | `季節のことわり` | `講座の詳細を見る` | `rgba(251,248,243,0.92)` | logo 14.04px | CTA 13.14px |
+| 0 | Header | `site-header` | `日本の四季と食から学ぶアーユルヴェーダ` | `講座の詳細を見る` | `rgba(251,248,243,0.92)` | logo `clamp(10.88px,1.2vw,12.48px)` | CTA 13.14px |
 | 1 | Hero | `hero` | `アーユルヴェーダを、日本の暮らしへ。` | `全講座で学ぶ` | `#fbf8f3` | `clamp(30.6px,4.5vw,54px)` | `clamp(18px,2vw,20.16px)` |
 | 2 | Sympathy | `section-sympathy` | `季節が変わるたびに、身体も少しずつ変わります。` | none | `#f5f0e8` | `clamp(27px,3.2vw,39.6px)` | intro `clamp(19.8px,2.2vw,27px)` |
 | 3 | Problem | `section-problem` | `35歳を過ぎた頃から、季節の変化が身体に出やすくなることがあります。` | none | `#faf7f2` | `clamp(30.6px,3.8vw,48.6px)` | 18.36px |

@@ -228,6 +228,7 @@ a   { color: inherit; text-decoration: none; }
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 18px;
   background-color: rgba(251, 248, 243, 0.92);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
@@ -242,14 +243,18 @@ a   { color: inherit; text-decoration: none; }
 .header-logo {
   font-family: 'Noto Serif JP', Georgia, serif;
   font-weight: 400;
-  font-size: 0.78rem;
-  letter-spacing: 0.18em;
+  font-size: clamp(0.68rem, 1.2vw, 0.78rem);
+  line-height: 1.55;
+  letter-spacing: 0.08em;
   color: #3d3328;
+  flex: 1 1 auto;
+  min-width: 0;
 }
 
 .header-cta {
   display: inline-flex;
   align-items: center;
+  flex-shrink: 0;
   gap: 8px;
   padding: 9px 22px;
   border: 1px solid rgba(107,127,73,0.55);
