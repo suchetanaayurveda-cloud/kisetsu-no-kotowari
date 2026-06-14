@@ -219,14 +219,14 @@ Wanpoint SVGs:
 - Pricing package CTA: `全講座で学ぶ →` -> `#section-cta`.
 - Final package CTA: `#btn-package-apply` initially `href="#"`, then overwritten by `PACKAGE_URL` in `js/main.js`.
 - Current `PACKAGE_URL`: `https://viorto.shop/items/6a2bd3f1ea71f300c11b0b59`.
-- Current result: final package CTA goes to the complete-course STORES product page.
+- Current result: final package CTA opens the complete-course STORES product page in a new tab.
 
 ### Single-Session CTA
 
 - Pricing single CTA: `1回から参加する` -> `#section-cta`.
 - Final single CTA: `#btn-single-apply` initially `href="#"`, then overwritten by `SINGLE_URL` in `js/main.js`.
 - Current `SINGLE_URL`: `https://viorto.shop/items/6a2bd33c1c72b400460c4ab0`.
-- Current result: final single-session CTA goes to the single-session STORES product page.
+- Current result: final single-session CTA opens the single-session STORES product page in a new tab.
 
 ### Sticky CTA
 

@@ -394,9 +394,13 @@
 
   if (pkgBtn) {
     pkgBtn.setAttribute('href', PACKAGE_URL);
+    pkgBtn.setAttribute('target', '_blank');
+    pkgBtn.setAttribute('rel', 'noopener noreferrer');
   }
   if (singleBtn) {
     singleBtn.setAttribute('href', SINGLE_URL);
+    singleBtn.setAttribute('target', '_blank');
+    singleBtn.setAttribute('rel', 'noopener noreferrer');
   }
 
   // Header CTAも設定

@@ -75,6 +75,8 @@ This document records the current implementation only. It does not include criti
 - Main heading:
   - `アーユルヴェーダを、`
   - `日本の暮らしへ。`
+- Formal course title:
+  - `日本の四季と食から学ぶアーユルヴェーダ`
 - Intro / subtitle text:
   - `二十四節気と旬の食材から学ぶ、`
   - `一年の食養生講座。`
@@ -1494,11 +1496,15 @@ Additional JS reduced-motion handling:
   - HTML href: `#`
   - JS target: `PACKAGE_URL`
   - Current `PACKAGE_URL`: `https://viorto.shop/items/6a2bd3f1ea71f300c11b0b59`
+  - JS sets `target="_blank"`
+  - JS sets `rel="noopener noreferrer"`
 - Final single CTA:
   - Text: `1回から参加する（¥38,000）`
   - HTML href: `#`
   - JS target: `SINGLE_URL`
   - Current `SINGLE_URL`: `https://viorto.shop/items/6a2bd33c1c72b400460c4ab0`
+  - JS sets `target="_blank"`
+  - JS sets `rel="noopener noreferrer"`
 
 ## External Link Paths
 
