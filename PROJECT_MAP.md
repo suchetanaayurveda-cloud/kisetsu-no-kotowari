@@ -218,15 +218,15 @@ Wanpoint SVGs:
 - Hero package CTA: `index.html` hero button `全講座で学ぶ` -> `#section-cta`.
 - Pricing package CTA: `全講座で学ぶ →` -> `#section-cta`.
 - Final package CTA: `#btn-package-apply` initially `href="#"`, then overwritten by `PACKAGE_URL` in `js/main.js`.
-- Current `PACKAGE_URL`: `#`.
-- Current result: final package CTA does not go to a real checkout/application page.
+- Current `PACKAGE_URL`: `https://viorto.shop/items/6a2bd3f1ea71f300c11b0b59`.
+- Current result: final package CTA goes to the complete-course STORES product page.
 
 ### Single-Session CTA
 
 - Pricing single CTA: `1回から参加する` -> `#section-cta`.
 - Final single CTA: `#btn-single-apply` initially `href="#"`, then overwritten by `SINGLE_URL` in `js/main.js`.
-- Current `SINGLE_URL`: `#`.
-- Current result: final single-session CTA does not go to a real checkout/application page.
+- Current `SINGLE_URL`: `https://viorto.shop/items/6a2bd33c1c72b400460c4ab0`.
+- Current result: final single-session CTA goes to the single-session STORES product page.
 
 ### Sticky CTA
 
@@ -286,9 +286,9 @@ Wanpoint SVGs:
 
 ## Known Issues
 
-- Final package and single-session CTA URLs are placeholders (`#`) in `js/main.js`.
-- Session times are confirmed as `開催時間：19:00〜21:00`.
-- Schedule note now states the confirmed time on the page.
+- Final package and single-session CTA URLs are set to STORES product pages in `js/main.js`.
+- Session 1 time is confirmed as `開催時間：19:00〜21:00`; Session 2 and Session 3 times remain pending.
+- Schedule note states Session 1 is confirmed and Sessions 2/3 will be announced when decided.
 - OGP image is missing.
 - Testimonials appear to be placeholder or lightly sourced; current source note is not strong enough for launch trust.
 - YUKARI. profile image is loaded externally.

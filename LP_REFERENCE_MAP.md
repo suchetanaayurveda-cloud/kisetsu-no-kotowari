@@ -718,7 +718,7 @@ This document records the current implementation only. It does not include criti
     - Number block: `Session` / `02`
     - Date: `2026年 8月25日（火）`
     - Title: `夏から秋へ　夏の疲れを秋に残さない食養生`
-    - Detail: `開催時間：19:00〜21:00　オンライン開催｜アーカイブあり`
+    - Detail: `開催時間：決定次第ご案内します　オンライン開催｜アーカイブあり`
     - Badges:
       - `オンライン`
       - `アーカイブあり`
@@ -727,7 +727,7 @@ This document records the current implementation only. It does not include criti
     - Number block: `Session` / `03`
     - Date: `2026年 10月20日（火）`
     - Title: `秋から冬へ　温める力と保存の知恵`
-    - Detail: `開催時間：19:00〜21:00　オンライン開催｜アーカイブあり`
+    - Detail: `開催時間：決定次第ご案内します　オンライン開催｜アーカイブあり`
     - Badges:
       - `オンライン`
       - `アーカイブあり`
@@ -736,7 +736,7 @@ This document records the current implementation only. It does not include criti
   - `◆ 各回約2時間を予定しています。`
   - `◆ アーカイブ動画をご用意します。視聴期間の詳細は、お申込み前にご案内します。`
   - `◆ 3回を通じて学ぶことで、季節の流れがより深く理解できます。`
-  - `◆ 開催時間の詳細は、各回 19:00〜21:00 です。`
+  - `◆ 第1回は 19:00〜21:00 に開催します。第2回・第3回の開催時間は、決定次第ご案内します。`
 
 ## Section 14 - Pricing
 
@@ -815,7 +815,7 @@ This document records the current implementation only. It does not include criti
     - `全講座で学ぶ →`
 - Pricing note:
   - `※ 価格はすべて税込です。`
-  - `※ お申込み後のキャンセル・返金については、お申込みページの規定をご確認ください。`
+  - `※ お申込み後のキャンセル・返金は原則として承っておりません。お申込み前に内容を十分ご確認のうえお申込みください。`
   - `※ お申込みは、YUKARI.（viorto!）のSTORES商品ページに移動して行います。`
 
 ## Section 15 - Bonus
@@ -1043,8 +1043,8 @@ This document records the current implementation only. It does not include criti
 | Pricing single | `1回から参加する` | `#section-cta` | Pricing | `btn-pricing btn-pricing--secondary` | transparent, border `rgba(60,51,40,0.28)` | `#4a3728` | background `rgba(60,51,40,0.06)`, border `rgba(60,51,40,0.48)` |
 | Pricing package | `全講座で学ぶ →` | `#section-cta` | Pricing | `btn-pricing btn-pricing--primary` | linear gradient `#b8975a` to `#d4b07a` | `#1a1612` | translateY(-2px), stronger shadow |
 | FAQ question rows | FAQ question text | no href | FAQ | `faq-question` | row background `#f5f0e8` | `#2c2418` | hover background `#ede8df` |
-| Final package | `全講座で学ぶ（¥114,000）` | HTML `#`; JS `PACKAGE_URL` currently `#` | Final CTA | `btn-cta-main` | linear gradient `#b8975a` / `#d4b07a` / `#b8975a` | `#1a1612` | background-position shift, translateY(-3px), stronger shadow |
-| Final single | `1回から参加する（¥38,000）` | HTML `#`; JS `SINGLE_URL` currently `#` | Final CTA | `btn-cta-single` | transparent, border `rgba(60,51,40,0.28)` | `#5c4f3f` | darker border and text `#3d3328` |
+| Final package | `全講座で学ぶ（¥114,000）` | JS `PACKAGE_URL`: `https://viorto.shop/items/6a2bd3f1ea71f300c11b0b59` | Final CTA | `btn-cta-main` | linear gradient `#b8975a` / `#d4b07a` / `#b8975a` | `#1a1612` | background-position shift, translateY(-3px), stronger shadow |
+| Final single | `1回から参加する（¥38,000）` | JS `SINGLE_URL`: `https://viorto.shop/items/6a2bd33c1c72b400460c4ab0` | Final CTA | `btn-cta-single` | transparent, border `rgba(60,51,40,0.28)` | `#5c4f3f` | darker border and text `#3d3328` |
 | Footer nav 1 | `この講座について` | `#section-sympathy` | Footer | inline style only | transparent | `rgba(240,224,192,0.4)` | inline JS changes text to `var(--color-gold-light)` |
 | Footer nav 2 | `講座内容` | `#section-learn` | Footer | inline style only | transparent | `rgba(240,224,192,0.4)` | inline JS changes text to `var(--color-gold-light)` |
 | Footer nav 3 | `講師紹介` | `#section-instructor` | Footer | inline style only | transparent | `rgba(240,224,192,0.4)` | inline JS changes text to `var(--color-gold-light)` |
@@ -1493,12 +1493,12 @@ Additional JS reduced-motion handling:
   - Text: `全講座で学ぶ（¥114,000）`
   - HTML href: `#`
   - JS target: `PACKAGE_URL`
-  - Current `PACKAGE_URL`: `#`
+  - Current `PACKAGE_URL`: `https://viorto.shop/items/6a2bd3f1ea71f300c11b0b59`
 - Final single CTA:
   - Text: `1回から参加する（¥38,000）`
   - HTML href: `#`
   - JS target: `SINGLE_URL`
-  - Current `SINGLE_URL`: `#`
+  - Current `SINGLE_URL`: `https://viorto.shop/items/6a2bd33c1c72b400460c4ab0`
 
 ## External Link Paths
 

@@ -317,7 +317,7 @@ The LP uses a single `index.html` file. Sections flow top to bottom. All section
   - Row 1: season-1-tsuyu-natsu.svg (14% opacity)
   - Row 2: season-2-natsu-aki.svg
   - Row 3: season-3-aki-fuyu.svg
-- **Session times:** Confirmed session time: "開催時間：19:00〜21:00"
+- **Session times:** Session 1 is confirmed as "開催時間：19:00〜21:00"; Sessions 2 and 3 show "開催時間：決定次第ご案内します"
 
 ### ⑭ Pricing
 - **ID:** `#section-pricing`
@@ -779,10 +779,10 @@ The LP is responsive across three breakpoints: 960px, 768px, and 600px.
 
 ### P1 — High (fix before launch)
 
-**Issue 4: Session times confirmed**
-- Description: All 3 schedule items show "開催時間：19:00〜21:00"
+**Issue 4: Session times partially confirmed**
+- Description: Session 1 shows "開催時間：19:00〜21:00"; Sessions 2 and 3 show "開催時間：決定次第ご案内します"
 - Affected: `index.html` schedule section (3 instances of `schedule-detail` class)
-- Status: Resolved — visitors can now confirm whether the time works for them
+- Status: Partially resolved — Session 1 time is visible; Sessions 2 and 3 remain pending
 
 **Issue 5: Testimonials are placeholder**
 - Description: 4 voice cards contain fabricated quotes
@@ -1018,10 +1018,10 @@ Everything is built. The LP looks and works correctly:
 
 ### What is NOT done
 
-1. **CTA buttons don't go anywhere** — `href="#"` — this blocks all revenue. Fix first.
+1. **CTA buttons now point to STORES** — final CTA URLs are set in `js/main.js`.
 2. **No OGP image** — LP cannot be shared with thumbnail on LINE/social
 3. **Testimonials are fake** — must be replaced before public launch
-4. **Session times confirmed** — schedule now shows "19:00〜21:00"
+4. **Session times partially confirmed** — Session 1 now shows "19:00〜21:00"; Sessions 2 and 3 remain pending
 5. **No GitHub remote** — code not backed up
 6. **No analytics** — cannot measure performance
 
@@ -1066,8 +1066,8 @@ This LP does **not** process payment directly. Final enrollment is expected to h
 
 Current CTA architecture remains:
 - Header, hero, pricing, and sticky CTAs scroll to `#section-cta`
-- Final package and single-session buttons are the outbound CTA placeholders
-- `PACKAGE_URL` and `SINGLE_URL` in `js/main.js` should later be set to STORES product URLs
+- Final package and single-session buttons are outbound STORES CTAs
+- `PACKAGE_URL` and `SINGLE_URL` in `js/main.js` are set to STORES product URLs
 
 ### Copy and readiness changes made after review
 
@@ -1075,7 +1075,7 @@ Current CTA architecture remains:
 - Section 4: keyword layout reduced from large isolated words to a smaller inline phrase; forced line breaks reduced for mobile readability.
 - Section 6: course content revised to be more concrete and curiosity-led, including `そうめんでも夏バテは解消されない理由`.
 - Examples: answers shortened into teaser copy.
-- Schedule: session time confirmed as `開催時間：19:00〜21:00`.
+- Schedule: Session 1 time confirmed as `開催時間：19:00〜21:00`; Session 2 and 3 times remain pending.
 - Archive wording: changed to say viewing-period details will be announced before application.
 - FAQ: public upgrade FAQ removed; payment FAQ replaced with STORES enrollment wording.
 - Final CTA: added STORES transition note and strengthened Japanese seasonal / 二十四節気 positioning.

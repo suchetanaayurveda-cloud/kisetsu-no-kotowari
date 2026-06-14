@@ -383,15 +383,14 @@
       ※ sticky-cta と header-cta は #section-cta へのスクロール
          リンクなので変更不要。
 
-      ★ 申込みURLが確定したら PACKAGE_URL / SINGLE_URL を書き換える ★
+      STORES product URLs are configured here.
    ======================================== */
 (function initCTAButtons() {
   const pkgBtn = document.getElementById('btn-package-apply');
   const singleBtn = document.getElementById('btn-single-apply');
 
-  // TODO: 実URLに差し替える（この2行だけ変更すれば全CTA反映される）
-  const PACKAGE_URL = '#'; // ← 例: 'https://ssl.form-mailer.jp/fms/xxxxx'
-  const SINGLE_URL  = '#'; // ← 例: 'https://ssl.form-mailer.jp/fms/yyyyy'
+  const PACKAGE_URL = 'https://viorto.shop/items/6a2bd3f1ea71f300c11b0b59';
+  const SINGLE_URL  = 'https://viorto.shop/items/6a2bd33c1c72b400460c4ab0';
 
   if (pkgBtn) {
     pkgBtn.setAttribute('href', PACKAGE_URL);

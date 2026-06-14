@@ -110,7 +110,7 @@ Overall Japanese is natural, calm, and polished. Weaker areas include vague test
   - Session 02 includes more familiar autumn foods such as 新米, 柿, かぼちゃ, 芋類.
   - Session 03 is more concrete around 味噌, 醤油, 漬物, 米, 塩, 甘味料, 冬の冷え.
 - Shortened Examples answers into teaser-style copy so the LP creates curiosity instead of fully answering each topic.
-- Updated schedule wording to the confirmed `19:00〜21:00` time.
+- Updated schedule wording so Session 1 shows the confirmed `19:00〜21:00` time and Sessions 2/3 remain pending.
 - Updated archive wording to avoid promising a final period before it is decided.
 - Removed the public upgrade FAQ and removed the strong public upgrade note from pricing.
 - Replaced payment FAQ with STORES-based enrollment wording.
