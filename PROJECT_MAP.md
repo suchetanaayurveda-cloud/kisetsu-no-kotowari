@@ -108,7 +108,7 @@ Every LP section in current order:
 
 - Hero primary CTA: scrolls to `#section-cta`.
 - Hero secondary CTA: scrolls to `#section-learn`.
-- Header CTA: scrolls to `#section-cta`; JS also enforces this.
+- Header CTA: scrolls to `#section-pricing`; JS also enforces this.
 - Pricing single CTA: scrolls to `#section-cta`.
 - Pricing package CTA: scrolls to `#section-cta`.
 - Final package CTA: `#btn-package-apply`; currently overwritten by `PACKAGE_URL` in `js/main.js`.

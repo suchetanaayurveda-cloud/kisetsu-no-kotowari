@@ -380,8 +380,8 @@
         #btn-package-apply  → 全講座パッケージ（¥114,000）
         #btn-single-apply   → 1回参加（¥38,000）
 
-      ※ sticky-cta と header-cta は #section-cta へのスクロール
-         リンクなので変更不要。
+      ※ sticky-cta は #section-cta、header-cta は #section-pricing への
+         スクロールリンクなので変更不要。
 
       STORES product URLs are configured here.
    ======================================== */
@@ -406,7 +406,7 @@
   // Header CTAも設定
   const headerCta = document.querySelector('.header-cta');
   if (headerCta) {
-    headerCta.setAttribute('href', '#section-cta');
+    headerCta.setAttribute('href', '#section-pricing');
   }
 })();
 

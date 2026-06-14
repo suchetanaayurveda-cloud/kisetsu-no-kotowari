@@ -1037,7 +1037,7 @@ This document records the current implementation only. It does not include criti
 
 | Button | Exact text | href destination | Section location | Visual style class | Button color | Text color | Hover behavior |
 |---|---|---|---|---|---|---|---|
-| Header CTA | `講座の詳細を見る` | `#section-cta` | Header | `header-cta` | transparent, border `rgba(107,127,73,0.55)` | `#6b7f49` | background `#6b7f49`, text `#fbf8f3` |
+| Header CTA | `講座の詳細を見る` | `#section-pricing` | Header | `header-cta` | transparent, border `rgba(107,127,73,0.55)` | `#6b7f49` | background `#6b7f49`, text `#fbf8f3` |
 | Hero primary | `全講座で学ぶ` | `#section-cta` | Hero | `btn-primary` | linear gradient `#b8975a` to `#d4b07a` | `#1a1612` | translateY(-2px), stronger shadow |
 | Hero secondary | `講座内容を見る` | `#section-learn` | Hero | `btn-secondary` | transparent, border `rgba(60,51,40,0.28)` | `#4a3728` | background `rgba(60,51,40,0.06)`, darker border |
 | YUKARI Instagram | `📷 @viorto` | `https://www.instagram.com/viorto/` | Instructor profile | inline style only | transparent, border `#e8e2d8` | `#746656` | inline JS changes border/text to `#b8975a` |
