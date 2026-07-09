@@ -373,12 +373,12 @@
 /* ========================================
    12. CTA BUTTON — PAYMENT URL CONFIGURATION
       ─────────────────────────────────────────
-      申込みURLの設定はここ1か所だけ変更すれば OK。
+      お申し込みURLの設定はここ1か所だけ変更すれば OK。
       このJSが index.html の href="#" を上書きします。
 
       対象ボタン（index.html）：
-        #btn-package-apply  → 全講座パッケージ（¥114,000）
-        #btn-single-apply   → 1回参加（¥38,000）
+        #btn-package-apply  → 全部受講（¥114,000）
+        #btn-single-apply   → 次回の講座を単発受講（¥38,000）
 
       ※ sticky-cta は #section-cta、header-cta は #section-pricing への
          スクロールリンクなので変更不要。
