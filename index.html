@@ -875,11 +875,11 @@
           <div class="schedule-info">
             <p class="schedule-date">2026年 7月7日（火）</p>
             <h3 class="schedule-season">梅雨から夏へ　湿気と暑さを味方にする食養生</h3>
-            <p class="schedule-detail">開催時間：<span class="nowrap">19:00〜21:00</span><br><span class="nowrap">オンライン開催</span>｜<span class="nowrap">アーカイブあり</span></p>
+            <p class="schedule-detail">開催済み：<span class="nowrap">19:00〜21:00</span><br><span class="nowrap">アーカイブあり</span></p>
           </div>
           <div class="schedule-badge">
-            <span>オンライン</span>
-            <span>アーカイブあり</span>
+            <span>開催済み</span>
+            <span>アーカイブ受講</span>
           </div>
         </div>
 
@@ -926,7 +926,7 @@
           ◆ 各回約2時間を予定しています。<br>
           ◆ アーカイブ動画をご用意します。視聴期間の詳細は、お申し込み前にご案内します。<br>
           ◆ 3回を通じて学ぶことで、季節の流れがより深く理解できます。<br>
-          ◆ 第1回は <span class="nowrap">19:00〜21:00</span> に開催します。第2回・第3回の開催時間は、決定次第ご案内します。
+          ◆ 第1回は開催済みです。アーカイブ動画でご受講いただけます。第2回・第3回の開催時間は、決定次第ご案内します。
         </p>
       </div>
     </div>
@@ -951,17 +951,17 @@
         季節の流れを、第1回から順に学んでいただけます。
       </p>
 
-      <div class="pricing-grid" role="list">
+      <div class="pricing-grid pricing-grid--single" role="list">
         <!-- 全部受講（推奨） -->
-        <div class="pricing-card pricing-card--recommended fade-in-up" role="listitem">
+        <div class="pricing-card pricing-card--recommended fade-in-up" role="listitem" data-sales-product="evergreen">
           <div class="pricing-recommend-badge">✦ 深く学びたい方へ ✦</div>
-          <span class="pricing-card-label">Recommended</span>
-          <h3 class="pricing-card-name">全部受講<br><small style="font-size:0.75em;font-weight:500;color:#625447">第1回はアーカイブ動画からご受講いただけます。</small></h3>
+          <span class="pricing-card-label" data-sales-label>Recommended</span>
+          <h3 class="pricing-card-name"><span data-sales-title>全部受講</span><br><small style="font-size:0.75em;font-weight:500;color:#625447" data-sales-description>第1回はアーカイブ動画からご受講いただけます。</small></h3>
           <div class="pricing-card-price">
-            <div class="pricing-price-amount">¥114,000<span class="pricing-price-tax">（税込）</span></div>
-            <p class="pricing-price-per" style="text-decoration:line-through;color:#625447;font-size:0.82rem;text-decoration-thickness:1.5px;">講座3回＋特典合計 ¥150,000相当</p>
+            <div class="pricing-price-amount"><span data-sales-price>¥114,000</span><span class="pricing-price-tax">（税込）</span></div>
+            <p class="pricing-price-per" style="text-decoration:line-through;color:#625447;font-size:0.82rem;text-decoration-thickness:1.5px;" data-sales-price-note>講座3回＋特典合計 ¥150,000相当</p>
           </div>
-          <ul class="pricing-value-tags" aria-label="全部受講の価値">
+          <ul class="pricing-value-tags" aria-label="全部受講の価値" data-sales-value-tags>
             <li>BAMS医師</li>
             <li>YUKARI.</li>
             <li>二十四節気</li>
@@ -969,34 +969,30 @@
             <li>アーカイブ</li>
             <li>特典6講座</li>
           </ul>
-          <ul class="pricing-features" aria-label="全部受講の内容">
+          <ul class="pricing-features" aria-label="全部受講の内容" data-sales-features>
             <li>第1回講座（アーカイブ動画）</li>
             <li>第2回・第3回ライブ講座</li>
             <li>全回アーカイブ動画</li>
             <li>ライブ当日のチャット質問</li>
-            <li>特典6講座つき</li>
+            <li>特典6講座つき（緑茶講座を含む）</li>
           </ul>
           <div class="pricing-total-value">
             <p class="pricing-total-value-label">特典6講座の合計価値</p>
             <p class="pricing-total-value-num">¥36,000以上<span>相当つき</span></p>
           </div>
-          <a href="https://viorto.shop/items/6a2bd3f1ea71f300c11b0b59" class="btn-pricing btn-pricing--primary" aria-label="全部受講の詳細へ進む" target="_blank" rel="noopener noreferrer">全部受講で申し込む</a>
+          <a href="https://viorto.shop/items/6a2bd3f1ea71f300c11b0b59" class="btn-pricing btn-pricing--primary" aria-label="全部受講の詳細へ進む" target="_blank" rel="noopener noreferrer" data-sales-button>全部受講で申し込む</a>
         </div>
 
-        <!-- 次回の講座を単発受講 -->
-        <div class="pricing-card fade-in-up delay-1" role="listitem">
-          <span class="pricing-card-label">Next Session</span>
-          <h3 class="pricing-card-name">次回の講座を単発受講<br><small style="font-size:0.75em;font-weight:500;color:#625447">次回の講座だけご受講いただけます。</small></h3>
+        <!-- 期間限定の副商品。JavaScript無効時は非表示。 -->
+        <div class="pricing-card fade-in-up delay-1" role="listitem" data-sales-product="secondary" hidden aria-hidden="true">
+          <span class="pricing-card-label" data-sales-label></span>
+          <h3 class="pricing-card-name"><span data-sales-title></span><br><small style="font-size:0.75em;font-weight:500;color:#625447" data-sales-description></small></h3>
           <div class="pricing-card-price">
-            <div class="pricing-price-amount">¥38,000<span class="pricing-price-tax">（税込）</span></div>
-            <p class="pricing-price-per">1回あたり</p>
+            <div class="pricing-price-amount"><span data-sales-price></span><span class="pricing-price-tax">（税込）</span></div>
+            <p class="pricing-price-per" data-sales-price-note></p>
           </div>
-          <ul class="pricing-features" aria-label="次回の講座を単発受講の内容">
-            <li>次回の講座</li>
-            <li>アーカイブ動画</li>
-            <li>ライブ当日のチャット質問</li>
-          </ul>
-          <a href="https://viorto.shop/items/6a2bd33c1c72b400460c4ab0" class="btn-pricing btn-pricing--secondary" aria-label="次回の講座を単発受講の詳細へ進む" target="_blank" rel="noopener noreferrer">次回講座を単発受講する</a>
+          <ul class="pricing-features" aria-label="" data-sales-features></ul>
+          <a class="btn-pricing btn-pricing--secondary" data-sales-button hidden aria-hidden="true" tabindex="-1"></a>
         </div>
       </div>
 
@@ -1224,23 +1220,23 @@
       </p>
 
       <!-- 全部受講CTA -->
-      <div style="max-width:600px;margin:0 auto;">
+      <div style="max-width:600px;margin:0 auto;" data-sales-final>
         <div class="cta-price-display">
-          <span class="cta-price-label">全部受講</span>
-          <div class="cta-price-num">¥114,000</div>
-          <p class="cta-price-tax">税込｜第1回アーカイブ＋第2回・第3回講座＋特典6講座つき</p>
-          <p class="cta-value-note">
+          <span class="cta-price-label" data-sales-final-title>全部受講</span>
+          <div class="cta-price-num" data-sales-final-price>¥114,000</div>
+          <p class="cta-price-tax" data-sales-final-price-note>税込｜第1回アーカイブ＋第2回・第3回講座＋特典6講座つき</p>
+          <p class="cta-value-note" data-sales-final-value>
             第1回から順に学んでいただけるよう、アーカイブ動画をご用意しています。<br>
             BAMS医師とYUKARI.から、二十四節気と日本の食文化を学ぶ<br>
-            アーユルヴェーダ基礎・日本茶・醤油味噌・塩・米・甘味料
+            アーユルヴェーダ基礎・緑茶・醤油味噌・塩・米・甘味料
           </p>
         </div>
 
         <div class="cta-btn-group">
-          <a href="#" class="btn-cta-main" id="btn-package-apply">
+          <a href="https://viorto.shop/items/6a2bd3f1ea71f300c11b0b59" class="btn-cta-main" id="btn-package-apply" target="_blank" rel="noopener noreferrer" data-sales-final-main-button>
             全部受講で申し込む（¥114,000）
           </a>
-          <a href="#" class="btn-cta-single" id="btn-single-apply">次回講座を単発受講する（¥38,000）</a>
+          <a class="btn-cta-single" id="btn-single-apply" data-sales-final-secondary-button hidden aria-hidden="true" tabindex="-1"></a>
         </div>
 
         <p class="cta-guarantee">
@@ -1291,15 +1287,17 @@
   </footer>
 
   <!-- Sticky CTA (Mobile) -->
-  <div class="sticky-cta" id="sticky-cta" aria-hidden="true">
+  <div class="sticky-cta" id="sticky-cta" aria-hidden="true" data-sales-mobile>
     <div class="sticky-cta-text">
-      全部受講<br>
-      <span class="sticky-cta-price">¥114,000（税込）</span>
+      <span data-sales-mobile-title>全部受講</span><br>
+      <span class="sticky-cta-price" data-sales-mobile-price>¥114,000（税込）</span>
     </div>
-    <a href="#section-cta" class="sticky-cta-btn">全部受講で申し込む</a>
+    <a href="#section-cta" class="sticky-cta-btn" data-sales-mobile-button>全部受講で申し込む</a>
   </div>
 
   <!-- Scripts -->
+  <script src="js/sales-config.js"></script>
+  <script src="js/sales-controller.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

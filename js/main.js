@@ -369,48 +369,6 @@
   }, { passive: true });
 })();
 
-
-/* ========================================
-   12. CTA BUTTON — PAYMENT URL CONFIGURATION
-      ─────────────────────────────────────────
-      お申し込みURLの設定はここ1か所だけ変更すれば OK。
-      このJSが index.html の href="#" を上書きします。
-
-      対象ボタン（index.html）：
-        #btn-package-apply  → 全部受講（¥114,000）
-        #btn-single-apply   → 次回の講座を単発受講（¥38,000）
-
-      ※ sticky-cta は #section-cta、header-cta は #section-pricing への
-         スクロールリンクなので変更不要。
-
-      STORES product URLs are configured here.
-   ======================================== */
-(function initCTAButtons() {
-  const pkgBtn = document.getElementById('btn-package-apply');
-  const singleBtn = document.getElementById('btn-single-apply');
-
-  const PACKAGE_URL = 'https://viorto.shop/items/6a2bd3f1ea71f300c11b0b59';
-  const SINGLE_URL  = 'https://viorto.shop/items/6a2bd33c1c72b400460c4ab0';
-
-  if (pkgBtn) {
-    pkgBtn.setAttribute('href', PACKAGE_URL);
-    pkgBtn.setAttribute('target', '_blank');
-    pkgBtn.setAttribute('rel', 'noopener noreferrer');
-  }
-  if (singleBtn) {
-    singleBtn.setAttribute('href', SINGLE_URL);
-    singleBtn.setAttribute('target', '_blank');
-    singleBtn.setAttribute('rel', 'noopener noreferrer');
-  }
-
-  // Header CTAも設定
-  const headerCta = document.querySelector('.header-cta');
-  if (headerCta) {
-    headerCta.setAttribute('href', '#section-pricing');
-  }
-})();
-
-
 /* ========================================
    13. REDUCED MOTION SUPPORT
    ======================================== */
