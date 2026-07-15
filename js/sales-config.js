@@ -41,7 +41,8 @@ window.SALES_CONFIG = {
   phases: [
     {
       id: 'green-tea',
-      enabled: true,
+      enabled: false,
+      disabled: true,
       startAt: '2026-07-09T00:00:00+09:00',
       endAt: '2026-07-15T00:00:00+09:00',
       secondaryProduct: {
@@ -55,6 +56,24 @@ window.SALES_CONFIG = {
         url: 'https://viorto.shop/items/6a4db71827d5b26ff2cde05a',
         buttonLabel: '緑茶講座に申し込む',
         finalButtonLabel: '緑茶講座に申し込む（¥5,000）'
+      }
+    },
+    {
+      id: 'soy-sauce-miso',
+      enabled: true,
+      startAt: '2026-07-15T15:46:16+09:00',
+      endAt: '2026-08-05T00:00:00+09:00',
+      secondaryProduct: {
+        id: 'soy-sauce-miso-single',
+        title: '醤油・味噌ミニ講座',
+        label: 'Soy Sauce & Miso Course',
+        description: '醤油・味噌ミニ講座のみご受講いただけます。',
+        price: 5000,
+        priceNote: '醤油・味噌ミニ講座のみ',
+        features: ['醤油・味噌ミニ講座', 'アーカイブ動画', '発酵と養生の視点'],
+        url: 'https://viorto.shop/items/6a56fc8eb456382e09964d0e',
+        buttonLabel: '醤油・味噌ミニ講座に申し込む',
+        finalButtonLabel: '醤油・味噌ミニ講座に申し込む（¥5,000）'
       }
     }
   ],
