@@ -75,6 +75,25 @@ window.SALES_CONFIG = {
         buttonLabel: '醤油・味噌ミニ講座に申し込む',
         finalButtonLabel: '醤油・味噌ミニ講座に申し込む（¥5,000）'
       }
+    },
+    {
+      id: 'august-25',
+      enabled: true,
+      disabled: false,
+      startAt: '2026-08-05T00:00:00+09:00',
+      endAt: '2026-08-26T00:00:00+09:00',
+      secondaryProduct: {
+        id: 'august-25-single',
+        title: '8月25日講座',
+        label: 'August 25 Course',
+        description: '8月25日講座のみご受講いただけます。',
+        price: 5000,
+        priceNote: '8月25日講座のみ',
+        features: ['8月25日講座', 'オンライン開催', 'アーカイブ動画'],
+        url: 'https://viorto.shop/items/6a72f2f7b90fcc0089f65848',
+        buttonLabel: '8月25日講座を申し込む',
+        finalButtonLabel: '8月25日講座を申し込む（¥5,000）'
+      }
     }
   ],
 
