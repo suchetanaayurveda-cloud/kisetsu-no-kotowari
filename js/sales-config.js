@@ -80,19 +80,19 @@ window.SALES_CONFIG = {
       id: 'august-25',
       enabled: true,
       disabled: false,
-      startAt: '2026-08-05T00:00:00+09:00',
-      endAt: '2026-08-26T00:00:00+09:00',
+      startAt: '2026-08-06T00:00:00+09:00',
+      endAt: '2026-08-25T22:00:00+09:00',
       secondaryProduct: {
         id: 'august-25-single',
-        title: '8月25日講座',
+        title: '8月25日講座単発受講',
         label: 'August 25 Course',
-        description: '8月25日講座のみご受講いただけます。',
-        price: 5000,
-        priceNote: '8月25日講座のみ',
-        features: ['8月25日講座', 'オンライン開催', 'アーカイブ動画'],
+        description: '夏から秋へ\n夏の疲れを秋に残さない食養生',
+        price: 38000,
+        priceNote: '8月25日講座単発受講',
+        features: ['夏から秋へ', '夏の疲れを秋に残さない食養生', 'オンライン開催', 'アーカイブ動画'],
         url: 'https://viorto.shop/items/6a72f2f7b90fcc0089f65848',
-        buttonLabel: '8月25日講座を申し込む',
-        finalButtonLabel: '8月25日講座を申し込む（¥5,000）'
+        buttonLabel: '8月25日講座に申し込む',
+        finalButtonLabel: '8月25日講座に申し込む（¥38,000）'
       }
     }
   ],
